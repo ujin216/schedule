@@ -11,7 +11,7 @@
 ### ERD
 #### schedules
 |컬럼이름|데이터타입|키|null허용|설명|
-|-----------|-----------------|--|----|
+|------------|------------------|--|--|----|
 |id|BIGINT|PK(auto_increment)|N|식별자|
 |title||VARCHAR(20)|-|N|할일|
 |memberld|BIGINT|FK|Y|유저 테이블|
@@ -19,7 +19,7 @@
 |updated_at|DATETIME|-|N|수정일|
 #### members
 |컬럼이름|데이터타입|키|null허용|설명|
-|-----------|-----------------|--|----|
+|-----------|-----------------|--|--|----|
 |id|BIGINT|PK(auto_increment)|N|식별자|
 |title||VARCHAR(20)|-|N|유저 이름|
 |memberld|VARCHAR(255)|-|N|비밀번호|
