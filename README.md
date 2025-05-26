@@ -13,7 +13,7 @@
 |컬럼이름|데이터타입|키|null허용|설명|
 |------------|------------------|--|--|----|
 |id|BIGINT|PK(auto_increment)|N|식별자|
-|title||VARCHAR(20)|-|N|할일|
+|title|VARCHAR(20)|-|N|할일|
 |memberId|BIGINT|FK|Y|유저 테이블|
 |created_at|DATETIME|-|N|생성일|
 |updated_at|DATETIME|-|N|수정일|
